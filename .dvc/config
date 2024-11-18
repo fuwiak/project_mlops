@@ -2,3 +2,6 @@
     remote = myremote
 ['remote "myremote"']
     url = gdrive://1L7iEU-rP6axPegGZktjD0n40HzI0nM42
+    gdrive_use_service_account = true
+    gdrive_acknowledge_abuse = true
+    gdrive_service_account_json_file_path = mlopstask-442117-4f1b628d6f95.json
