@@ -1,0 +1,8 @@
+stages:
+  process_data:
+    cmd: python process_data.py
+    deps:
+    - asset_v1_Skillfactory+URFUML2023+SEP2023+type@asset+block@Credit.csv
+    - process_data.py
+    outs:
+    - processed_data
